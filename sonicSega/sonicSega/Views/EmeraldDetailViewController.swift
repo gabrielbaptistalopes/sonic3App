@@ -8,14 +8,31 @@
 import UIKit
 
 class EmeraldDetailViewController: UIViewController {
+    
 
+    @IBOutlet weak var specialStageMap: UIImageView!
+    @IBOutlet weak var specialStageLabel: UILabel!
+   
+    var emerald: Emerald?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+       configureEmeraldDetail(
+        poster: emerald?.specialStageMap,
+        label: emerald?.specialStage)
+    
+        }
+    
+    func configureEmeraldDetail(poster: String?, label: String?) {
+        specialStageMap.image = UIImage(named: poster ?? "")
+        specialStageLabel.text = label
     }
     
 
+    }
+   
+  
   
 
-}
+
+

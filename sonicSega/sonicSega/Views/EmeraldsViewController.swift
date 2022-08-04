@@ -27,15 +27,28 @@ class EmeraldsViewController: UIViewController {
         Emerald(emeraldImage: "emerald13", specialStage: "Special Stage 13", specialStageMap: "specialStageMap13", specialStageDescription: "13"),
         Emerald(emeraldImage: "emerald14", specialStage: "Special Stage 14", specialStageMap: "specialStageMap14", specialStageDescription: "14")
      ]
+    
+   
+    var esmeraldasFiltradas: [Emerald] = []
+    var emeraldSelecionadas: Emerald?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         emeraldsTableView.dataSource = self
         emeraldsTableView.delegate = self
     }
 
-}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if let destination = segue.destination as? EmeraldDetailViewController {
+                   destination.emerald = emeraldSelecionadas
+    
+//                destination. = getDetalheDoEmeraldViewModel(posicao: posicaoSelecionada)
+            }
+        }
+    }
+
+
 
 extension EmeraldsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,8 +56,9 @@ extension EmeraldsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let emeralds = emeralds[indexPath.row]
+       
         let cell = tableView.dequeueReusableCell(withIdentifier: "specialStageCell") as? EmeraldTableViewTableViewCell
+        let emeralds = emeralds[indexPath.row]
             cell?.specialStageLabel.text = emeralds.specialStage
             cell?.emeraldImage.image = UIImage(named: emeralds.emeraldImage)
             return cell ?? UITableViewCell()
@@ -55,5 +69,12 @@ extension EmeraldsViewController: UITableViewDataSource {
 extension EmeraldsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        emeraldSelecionadas = emeralds[indexPath.row]
+        
+        
+        performSegue(withIdentifier: "goToDetailEmeraldSegue", sender: self)
     }
 }
