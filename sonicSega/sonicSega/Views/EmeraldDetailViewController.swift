@@ -19,7 +19,7 @@ class EmeraldDetailViewController: UIViewController {
         super.viewDidLoad()
        configureEmeraldDetail(
         poster: emerald?.specialStageMap,
-        label: emerald?.specialStage)
+        label: emerald?.specialStageDescription)
     
         }
     

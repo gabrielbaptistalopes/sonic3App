@@ -108,14 +108,34 @@
                     <view key="view" contentMode="scaleToFill" id="Tjp-Yn-WDI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sonic under construction" translatesAutoresizingMaskIntoConstraints="NO" id="pUF-ZS-wGw">
+                                <rect key="frame" x="54" y="288" width="306" height="290"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFe-wa-HYw">
+                                <rect key="frame" x="50" y="630" width="314" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Wq1-Bu-0ki"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="bottom" secondItem="pUF-ZS-wGw" secondAttribute="bottom" constant="284" id="9G7-ym-oa1"/>
+                            <constraint firstItem="pUF-ZS-wGw" firstAttribute="top" secondItem="Wq1-Bu-0ki" secondAttribute="top" constant="200" id="FeM-tX-Do5"/>
+                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="trailing" secondItem="pUF-ZS-wGw" secondAttribute="trailing" constant="54" id="Jxw-RM-7vh"/>
+                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="bottom" secondItem="GFe-wa-HYw" secondAttribute="bottom" constant="196" id="KZy-K5-oxI"/>
+                            <constraint firstItem="GFe-wa-HYw" firstAttribute="leading" secondItem="Wq1-Bu-0ki" secondAttribute="leading" constant="50" id="dBW-Tv-y8Y"/>
+                            <constraint firstItem="pUF-ZS-wGw" firstAttribute="leading" secondItem="Wq1-Bu-0ki" secondAttribute="leading" constant="54" id="fhH-4Q-qOT"/>
+                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="trailing" secondItem="GFe-wa-HYw" secondAttribute="trailing" constant="50" id="jIl-1G-9Rq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2i2-ap-Rkl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpA-Bo-Pih" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26" y="362"/>
+            <point key="canvasLocation" x="-26.086956521739133" y="361.60714285714283"/>
         </scene>
         <!--Items View Controller-->
         <scene sceneID="Pim-O0-0Tu">
@@ -124,14 +144,34 @@
                     <view key="view" contentMode="scaleToFill" id="0AW-gG-Do0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sonic under construction" translatesAutoresizingMaskIntoConstraints="NO" id="iGe-nz-SQu">
+                                <rect key="frame" x="54" y="303" width="306" height="290"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xba-ZF-gue">
+                                <rect key="frame" x="50" y="625" width="314" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QPF-FP-AUp"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QPF-FP-AUp" firstAttribute="trailing" secondItem="iGe-nz-SQu" secondAttribute="trailing" constant="54" id="4FS-yC-u6p"/>
+                            <constraint firstItem="QPF-FP-AUp" firstAttribute="bottom" secondItem="Xba-ZF-gue" secondAttribute="bottom" constant="201" id="5Em-EU-vGe"/>
+                            <constraint firstItem="iGe-nz-SQu" firstAttribute="top" secondItem="QPF-FP-AUp" secondAttribute="top" constant="215" id="Fwo-Oz-JMb"/>
+                            <constraint firstItem="Xba-ZF-gue" firstAttribute="leading" secondItem="QPF-FP-AUp" secondAttribute="leading" constant="50" id="MAX-5U-6MS"/>
+                            <constraint firstItem="iGe-nz-SQu" firstAttribute="leading" secondItem="QPF-FP-AUp" secondAttribute="leading" constant="54" id="e4S-Jr-nrP"/>
+                            <constraint firstItem="QPF-FP-AUp" firstAttribute="bottom" secondItem="iGe-nz-SQu" secondAttribute="bottom" constant="269" id="fPC-DV-XBg"/>
+                            <constraint firstItem="QPF-FP-AUp" firstAttribute="trailing" secondItem="Xba-ZF-gue" secondAttribute="trailing" constant="50" id="xLR-WK-GTT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xgw-e2-cWb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uWp-eF-ZEJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928" y="362"/>
+            <point key="canvasLocation" x="927.536231884058" y="361.60714285714283"/>
         </scene>
         <!--Emeralds View Controller-->
         <scene sceneID="tc5-LK-Vqd">
@@ -272,7 +312,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CFF-fO-kZ5">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="linkColor"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -287,25 +326,17 @@
     <resources>
         <image name="SK_level_select" width="320" height="224"/>
         <image name="emeraldsSonic3" width="1192" height="670"/>
+        <image name="sonic under construction" width="480" height="360"/>
         <image name="sonicitembox" width="1920" height="1080"/>
         <image name="specialStageMap1" width="1067" height="1134"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
