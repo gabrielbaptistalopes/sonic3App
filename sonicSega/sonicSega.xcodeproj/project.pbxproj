@@ -26,6 +26,8 @@
 		6EDF2AE628A0616D009063C1 /* Emerald+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AE528A0616D009063C1 /* Emerald+Service.swift */; };
 		6EDF2AE928A18AE9009063C1 /* ActsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AE828A18AE9009063C1 /* ActsModel.swift */; };
 		6EDF2AEB28A18B80009063C1 /* Acts+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AEA28A18B80009063C1 /* Acts+Service.swift */; };
+		6EDF2AED28A195AD009063C1 /* ActsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AEC28A195AD009063C1 /* ActsTableViewCell.swift */; };
+		6EDF2AEF28A19BFD009063C1 /* ActsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AEE28A19BFD009063C1 /* ActsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		6EDF2AE528A0616D009063C1 /* Emerald+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emerald+Service.swift"; sourceTree = "<group>"; };
 		6EDF2AE828A18AE9009063C1 /* ActsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActsModel.swift; sourceTree = "<group>"; };
 		6EDF2AEA28A18B80009063C1 /* Acts+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Acts+Service.swift"; sourceTree = "<group>"; };
+		6EDF2AEC28A195AD009063C1 /* ActsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActsTableViewCell.swift; sourceTree = "<group>"; };
+		6EDF2AEE28A19BFD009063C1 /* ActsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 				6ED56DD5289497AC0040D2B1 /* sonicSega.xcdatamodeld */,
 				6E9844EB2899DFC800AC542D /* EmeraldTableViewTableViewCell.swift */,
 				6EDF2AE728A18A6B009063C1 /* Model+Services */,
+				6EDF2AEC28A195AD009063C1 /* ActsTableViewCell.swift */,
+				6EDF2AEE28A19BFD009063C1 /* ActsDetailViewController.swift */,
 			);
 			path = sonicSega;
 			sourceTree = "<group>";
@@ -316,6 +322,8 @@
 				6EDF2AE628A0616D009063C1 /* Emerald+Service.swift in Sources */,
 				6EDF2AE928A18AE9009063C1 /* ActsModel.swift in Sources */,
 				6EDF2AEB28A18B80009063C1 /* Acts+Service.swift in Sources */,
+				6EDF2AEF28A19BFD009063C1 /* ActsDetailViewController.swift in Sources */,
+				6EDF2AED28A195AD009063C1 /* ActsTableViewCell.swift in Sources */,
 				6ED56DCF289497AC0040D2B1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

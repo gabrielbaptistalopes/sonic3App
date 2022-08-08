@@ -24,12 +24,12 @@ class EmeraldsViewController: UIViewController {
 //        Emerald(emeraldImage: "Emerald10", specialStage: "Special Stage 10", specialStageMap: "specialStageMap10", specialStageDescription: "10"),
 //        Emerald(emeraldImage: "Emerald11", specialStage: "Special Stage 11", specialStageMap: "specialStageMap11", specialStageDescription: "11"),
 //        Emerald(emeraldImage: "Emerald12", specialStage: "Special Stage 12", specialStageMap: "specialStageMap12", specialStageDescription: "12"),
-//        Emerald(emeraldImage: "Emerald13", specialStage: "Special Stage 13", specialStageMap: "specialStageMap13", specialStageDescription: "13"),
+//        Emerald(emeraldImage: "Emerald13", specialStage: "Special Stage 13", specemeraldialStageMap: "specialStageMap13", specialStageDescription: "13"),
 //        Emerald(emeraldImage: "Emerald14", specialStage: "Special Stage 14", specialStageMap: "specialStageMap14", specialStageDescription: "14")
 //     ]
     
    let service: EmeraldService = EmeraldService()
-   var emeraldSelecionadas: Emerald?
+   var emeraldSelected: Emerald?
 
 override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ override func viewDidLoad() {
 
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if let destination = segue.destination as? EmeraldDetailViewController {
-                   destination.emerald = emeraldSelecionadas
+                   destination.emerald = emeraldSelected
             }
         }
     }
@@ -68,7 +68,7 @@ extension EmeraldsViewController: UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        emeraldSelecionadas = emeralds[indexPath.row]
-        emeraldSelecionadas = service.emeralds[indexPath.row]
+        emeraldSelected = service.emeralds[indexPath.row]
         performSegue(withIdentifier: "goToDetailEmeraldSegue", sender: self)
     }
 }

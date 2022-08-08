@@ -101,6 +101,48 @@
             </objects>
             <point key="canvasLocation" x="927.536231884058" y="-368.30357142857139"/>
         </scene>
+        <!--Acts Detail View Controller-->
+        <scene sceneID="qFt-8o-SGS">
+            <objects>
+                <viewController id="4yW-WP-Tmu" customClass="ActsDetailViewController" customModule="sonicSega" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ik-YC-HZa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="si6-5n-2LP">
+                                <rect key="frame" x="20" y="113" width="374" height="253"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="253" id="zOi-Dx-RtP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descrição da fase" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMR-ft-DQT">
+                                <rect key="frame" x="20" y="436" width="374" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9ME-5b-mSJ"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="9ME-5b-mSJ" firstAttribute="trailing" secondItem="si6-5n-2LP" secondAttribute="trailing" constant="20" id="7Rq-Eg-Q1b"/>
+                            <constraint firstItem="9ME-5b-mSJ" firstAttribute="trailing" secondItem="HMR-ft-DQT" secondAttribute="trailing" constant="20" id="Fcw-tK-EsQ"/>
+                            <constraint firstItem="HMR-ft-DQT" firstAttribute="leading" secondItem="9ME-5b-mSJ" secondAttribute="leading" constant="20" id="Nx4-xa-ymt"/>
+                            <constraint firstItem="si6-5n-2LP" firstAttribute="top" secondItem="9ME-5b-mSJ" secondAttribute="top" constant="25" id="RCt-pd-h1C"/>
+                            <constraint firstItem="si6-5n-2LP" firstAttribute="leading" secondItem="9ME-5b-mSJ" secondAttribute="leading" constant="20" id="UUj-bk-Qlx"/>
+                            <constraint firstItem="HMR-ft-DQT" firstAttribute="top" secondItem="si6-5n-2LP" secondAttribute="bottom" constant="70" id="tfv-ae-jBK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="A60-Mw-1LD"/>
+                    <connections>
+                        <outlet property="actDetailDescription" destination="HMR-ft-DQT" id="lPb-E8-lAW"/>
+                        <outlet property="actDetailPoster" destination="si6-5n-2LP" id="4Sd-GS-Kbr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Qm-aW-laI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="1101.5625"/>
+        </scene>
         <!--Acts View Controller-->
         <scene sceneID="JpZ-L7-Mln">
             <objects>
@@ -109,29 +151,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sonic under construction" translatesAutoresizingMaskIntoConstraints="NO" id="pUF-ZS-wGw">
-                                <rect key="frame" x="54" y="288" width="306" height="290"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFe-wa-HYw">
-                                <rect key="frame" x="50" y="630" width="314" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sRU-XA-DpM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="actsCell" rowHeight="111" id="vFW-hG-qMG" customClass="ActsTableViewCell" customModule="sonicSega" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="111"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vFW-hG-qMG" id="CcS-H7-3Kr">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OiN-TP-thi">
+                                                    <rect key="frame" x="20" y="11" width="150" height="89"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="z7P-xJ-pTm"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Angel Island Act 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zk-uc-Icf">
+                                                    <rect key="frame" x="185" y="49.5" width="224" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OiN-TP-thi" firstAttribute="leading" secondItem="CcS-H7-3Kr" secondAttribute="leadingMargin" id="1p0-ML-fod"/>
+                                                <constraint firstItem="OiN-TP-thi" firstAttribute="top" secondItem="CcS-H7-3Kr" secondAttribute="topMargin" id="MP2-9T-DUL"/>
+                                                <constraint firstItem="8Zk-uc-Icf" firstAttribute="leading" secondItem="OiN-TP-thi" secondAttribute="trailing" constant="15" id="S89-ih-aAv"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="8Zk-uc-Icf" secondAttribute="bottom" constant="30" id="elh-Om-wWw"/>
+                                                <constraint firstItem="8Zk-uc-Icf" firstAttribute="trailing" secondItem="CcS-H7-3Kr" secondAttribute="trailingMargin" constant="15" id="tj3-p0-mxd"/>
+                                                <constraint firstItem="OiN-TP-thi" firstAttribute="bottom" secondItem="CcS-H7-3Kr" secondAttribute="bottomMargin" id="v51-Nd-Nh3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="actNameLabel" destination="8Zk-uc-Icf" id="blZ-Ui-GUT"/>
+                                            <outlet property="actPoster" destination="OiN-TP-thi" id="oa0-Tm-59k"/>
+                                            <segue destination="4yW-WP-Tmu" kind="show" identifier="goToActDetailSegue" id="XRH-uL-dkb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wq1-Bu-0ki"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="bottom" secondItem="pUF-ZS-wGw" secondAttribute="bottom" constant="284" id="9G7-ym-oa1"/>
-                            <constraint firstItem="pUF-ZS-wGw" firstAttribute="top" secondItem="Wq1-Bu-0ki" secondAttribute="top" constant="200" id="FeM-tX-Do5"/>
-                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="trailing" secondItem="pUF-ZS-wGw" secondAttribute="trailing" constant="54" id="Jxw-RM-7vh"/>
-                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="bottom" secondItem="GFe-wa-HYw" secondAttribute="bottom" constant="196" id="KZy-K5-oxI"/>
-                            <constraint firstItem="GFe-wa-HYw" firstAttribute="leading" secondItem="Wq1-Bu-0ki" secondAttribute="leading" constant="50" id="dBW-Tv-y8Y"/>
-                            <constraint firstItem="pUF-ZS-wGw" firstAttribute="leading" secondItem="Wq1-Bu-0ki" secondAttribute="leading" constant="54" id="fhH-4Q-qOT"/>
-                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="trailing" secondItem="GFe-wa-HYw" secondAttribute="trailing" constant="50" id="jIl-1G-9Rq"/>
+                            <constraint firstItem="sRU-XA-DpM" firstAttribute="top" secondItem="Wq1-Bu-0ki" secondAttribute="top" id="Puj-6z-W3e"/>
+                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="trailing" secondItem="sRU-XA-DpM" secondAttribute="trailing" id="UJ9-Vc-Kit"/>
+                            <constraint firstItem="sRU-XA-DpM" firstAttribute="leading" secondItem="Wq1-Bu-0ki" secondAttribute="leading" id="aOe-kX-cxy"/>
+                            <constraint firstItem="Wq1-Bu-0ki" firstAttribute="bottom" secondItem="sRU-XA-DpM" secondAttribute="bottom" id="pKq-ir-Hyy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2i2-ap-Rkl"/>
+                    <connections>
+                        <outlet property="actsTableView" destination="sRU-XA-DpM" id="GYN-2N-DCM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpA-Bo-Pih" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -257,6 +331,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fsr-aX-IAd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1808.6956521739132" y="361.60714285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lKt-DF-Rtm">
+            <objects>
+                <viewController id="gc2-Ye-TE7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tg2-Dz-6eD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="cR1-WT-IV6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pgF-MM-aNl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="1102"/>
         </scene>
         <!--Emerald Detail View Controller-->
         <scene sceneID="aOG-gF-fce">
