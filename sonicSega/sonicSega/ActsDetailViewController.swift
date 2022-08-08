@@ -17,15 +17,21 @@ class ActsDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureActsDetail(act: acts)
-     
+//        configureActsDetail(act: acts)
+          configureEmeraldDetail(
+            poster: acts?.image,
+            label: acts?.actDescription)
     }
     
-    func configureActsDetail(act: Acts?)  {
-        actDetailPoster.image = UIImage(named: act?.image ?? "")
-        actDetailDescription.text = act?.actDescription
-    }
+//    func configureActsDetail(act: Acts?)  {
+//        actDetailPoster.image = UIImage(named: act?.image ?? "")
+//        actDetailDescription.text = act?.actDescription
+//    }
     
+    func configureEmeraldDetail(poster: String?, label: String?) {
+        actDetailPoster.image = UIImage(named: poster ?? "")
+        actDetailDescription.text = label
+    }
 
 
 

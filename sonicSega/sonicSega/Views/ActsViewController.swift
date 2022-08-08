@@ -42,7 +42,7 @@ extension ActsViewController: UITableViewDataSource {
             cell?.actNameLabel.text = acts.name
             cell?.actPoster.image = UIImage(named: acts.image)
             return cell ?? UITableViewCell()
-
+        
         }
     }
     

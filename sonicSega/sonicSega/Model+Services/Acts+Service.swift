@@ -10,17 +10,17 @@ import Foundation
 class ActsService {
     
     let acts: [Acts] = [
-        Acts(name: "Angel Islang act 1",
+        Acts(name: "Angel Island act 1",
              image: "angelisland1",
              actDescription: "act1"),
         
-        Acts(name: "Angel Islang act 2",
-             image: "angelisland1",
+        Acts(name: "Angel Island act 2",
+             image: "angelisland2",
              actDescription: "act2"),
         
         Acts(name: "Hydrocity act 1",
              image: "hydrocity1",
-             actDescription: "act1"),
+             actDescription: "act3"),
         
         Acts(name: "Hydrocity act 2",
              image: "hydrocity2",
@@ -108,7 +108,7 @@ class ActsService {
         
         Acts(name: "Doomsday Zone",
              image: "hidden",
-             actDescription: "act1"),
+             actDescription: "act1")
     ]
     
 }

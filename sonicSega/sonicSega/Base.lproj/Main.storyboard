@@ -109,7 +109,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="si6-5n-2LP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Angel Island act 1" translatesAutoresizingMaskIntoConstraints="NO" id="si6-5n-2LP">
                                 <rect key="frame" x="20" y="113" width="374" height="253"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="253" id="zOi-Dx-RtP"/>
@@ -171,10 +171,11 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Angel Island Act 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zk-uc-Icf">
                                                     <rect key="frame" x="185" y="49.5" width="224" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="OiN-TP-thi" firstAttribute="leading" secondItem="CcS-H7-3Kr" secondAttribute="leadingMargin" id="1p0-ML-fod"/>
                                                 <constraint firstItem="OiN-TP-thi" firstAttribute="top" secondItem="CcS-H7-3Kr" secondAttribute="topMargin" id="MP2-9T-DUL"/>
@@ -187,7 +188,7 @@
                                         <connections>
                                             <outlet property="actNameLabel" destination="8Zk-uc-Icf" id="blZ-Ui-GUT"/>
                                             <outlet property="actPoster" destination="OiN-TP-thi" id="oa0-Tm-59k"/>
-                                            <segue destination="4yW-WP-Tmu" kind="show" identifier="goToActDetailSegue" id="XRH-uL-dkb"/>
+                                            <segue destination="4yW-WP-Tmu" kind="show" identifier="goToActDetailSegue" id="Dem-QK-of7"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -413,6 +414,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Angel Island act 1" width="268" height="188"/>
         <image name="SK_level_select" width="320" height="224"/>
         <image name="emeraldsSonic3" width="1192" height="670"/>
         <image name="sonic under construction" width="480" height="360"/>
