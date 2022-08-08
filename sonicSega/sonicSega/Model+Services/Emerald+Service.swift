@@ -81,11 +81,11 @@ class EmeraldService {
                 specialStageDescription: "14")
      ]
     
-    func getEmerald() -> [Emerald] {
-        let emerald = emeralds
-        return emerald
-        
-    }
+//    func getEmerald() -> [Emerald] {
+//        let emerald = emeralds
+//        return emerald
+//
+//    }
     
     
 }
