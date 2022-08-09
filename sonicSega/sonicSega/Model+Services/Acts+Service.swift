@@ -32,22 +32,22 @@ class ActsService {
         
         Acts(name: "Marble Garden act 1",
              image: "marble1",
-             actDescription: "Marble Garden Zone is an ancient ruin filled with plant life and an artistic look like one would see in a painting. Purple mountains and old temples choked with overgrowing foliage can be seen in the background from atop the Zone's many steep hills, which are filled with traps such as spiked pillars that can crush the player, swinging chains with giant spiked balls, and Oil Ocean Zone's sinking pool mechanic, only in a minor scale in the form of mud pools. There are also a variety of mechanisms dotted throughout the ancient city, some of which can be activated by performing a Spin Dash on wheel switches, or by taking out the Strange Reliefs that shoot arrows from their mouths. ",
+             actDescription: "Marble Garden Zone is an ancient ruin filled with plant life and an artistic look like one would see in a painting. Purple mountains and old temples choked with overgrowing foliage can be seen in the background from atop the Zone's many steep hills, which are filled with traps such as spiked pillars that can crush the player, swinging chains with giant spiked balls, and Oil Ocean Zone's sinking pool mechanic, only in a minor scale in the form of mud pools.  ",
              imageCover: "marblecover1"),
         
         Acts(name: "Marble Garden act 2",
              image: "marble2",
-             actDescription: "Act 2 takes the player closer towards the temples seen in the background of Act 1, filled with wheel pulley systems that the player can grab on to in order to scale steep slopes, and fast-moving tops being more common than in Act 1. Eggman/Eggrobo himself will also appear at certain points in the Act riding the Drill Mobile in search of jewels. Whenever he shows up, his digging will cause earthquakes to start that will cause the terrain to shift and crumble to greater extremes than those caused by the Tunnelbot, with Eggman completely leveling the Zone by the end. At the end of Act 2, Sonic and Tails fly into Carnival Night Zone as the sun sets, while Knuckles takes a tunnel from his boss area in Sonic 3 & Knuckles. Interestingly, if one uses Debug mode in Sonic 3 & Knuckles to take Sonic to Knuckles' version of the boss, Sonic will still enter the next stage by flying with Tails.",
+             actDescription: "Act 2 takes the player closer towards the temples seen in the background of Act 1, filled with wheel pulley systems that the player can grab on to in order to scale steep slopes, and fast-moving tops being more common than in Act 1. Eggman/Eggrobo himself will also appear at certain points in the Act riding the Drill Mobile in search of jewels. Whenever he shows up, his digging will cause earthquakes to start that will cause the terrain to shift and crumble to greater extremes than those caused by the Tunnelbot, with Eggman completely leveling the Zone by the end.  ",
              imageCover: "marblecover2"),
         
         Acts(name: "Casino Night act 1",
              image: "casino1",
-             actDescription: "Carnival Night Zone lives up to its name—it's a theme park! This colourful Zone follows many of the common tropes of carnival/casino-themed levels such as bumpers, except that there are many more hidden areas than in other Zones and a few more toys. Classic carnival-themed gimmicks include the cannon, which will launch the player in the direction of their choice, and balloons that can be used to give the player an extra bounce. Of course, the more stranger contraptions include anti-gravity pads, magnetic propulsion tubes and elevator shafts, platforms that sink when stood on and rise when jumped off of, long striped poles to run down on, spinning cylinders to grab on to, black wheels to get dizzy on, and the unforgettable rotating barrels; note that not all barrels move very far. This Zone is also one of the longest in the game for Sonic and Tails, but for Knuckles it's one of the shortest due to his short routes, with each Act taking about 1 minute and 30 seconds for the echidna to complete.",
+             actDescription: "Carnival Night Zone lives up to its name—it's a theme park! This colourful Zone follows many of the common tropes of carnival/casino-themed levels such as bumpers, except that there are many more hidden areas than in other Zones and a few more toys. Classic carnival-themed gimmicks include the cannon, which will launch the player in the direction of their choice, and balloons that can be used to give the player an extra bounce.  ",
              imageCover: "casinocover1"),
         
         Acts(name: "Casino Night act 2",
              image: "casino2",
-             actDescription: "Act 2 features areas submerged in pink water, with the player's only air source besides the Water Shield being air bubbles found by popping balloons underwater. Partway through Act 2, Sonic and Tails will encounter Knuckles, who will attempt to impede the heroes' progress by switching off the power all over the Zone, casting it in darkness, as well as flooding the next section with water which drains as the player makes their way down the section. Besides the raised water level, the lights being switched off has no other effect on gameplay. Later on, the player will find a button that turns the lights back on for the remainder of the Act. After a long series of high-speed tunnels, Knuckles will appear again to activate a long elevator shaft that sends the heroes to the Graviton Mobile. At the end of the Zone, Sonic and Tails are launched out of a cannon to IceCap Zone.",
+             actDescription: "Act 2 features areas submerged in pink water, with the player's only air source besides the Water Shield being air bubbles found by popping balloons underwater. Partway through Act 2, Sonic and Tails will encounter Knuckles, who will attempt to impede the heroes' progress by switching off the power all over the Zone, casting it in darkness, as well as flooding the next section with water which drains as the player makes their way down the section. Besides the raised water level, the lights being switched off has no other effect on gameplay. Later on, the player will find a button that turns the lights back on for the remainder of the Act. ",
              imageCover: "casinocover2"),
         
         Acts(name: "Ice Cap act 1",
@@ -62,77 +62,77 @@ class ActsService {
         
         Acts(name: "Launch Base act 1",
              image: "launch1",
-             actDescription: "Throughout Act 1, the kind of gimmicks the player will come across include huge cylinders that the player will revolve around and a variety of elevators, such as spinning yellow cups that travel up or down thin metal corkscrews (though some will spin out of control and fling the player into walls), and rapidly-spinning elevators inside glass tubes that will transport the player to other parts of the Act. Security alarms are placed around the Act, and will summon Flybot767 Badniks to attack the player if they pass through one. Outdoor sections are very fast-paced, as they are filled with long slopes to roll down, as well as Speed Boosters and tube-loops that will instantly propel the player into high speeds. Hooks attached to rails will carry the player at high speeds, and some walls require the player to Spin Jump into switch boxes to toggle them.",
+             actDescription: "Throughout Act 1, the kind of gimmicks the player will come across include huge cylinders that the player will revolve around and a variety of elevators, such as spinning yellow cups that travel up or down thin metal corkscrews (though some will spin out of control and fling the player into walls), and rapidly-spinning elevators inside glass tubes that will transport the player to other parts of the Act. Security alarms are placed around the Act, and will summon Flybot767 Badniks to attack the player if they pass through one. Outdoor sections are very fast-paced, as they are filled with long slopes to roll down, as well as Speed Boosters and tube-loops that will instantly propel the player into high speeds. ",
              imageCover: "launchcover1"),
         
         Acts(name: "Launch Base act 2",
              image: "launch2",
-             actDescription: "Act 2 takes the player into the giant lake seen in Act 1's background, and is composed of a complex network of water pipes that the player will run along at high speeds throughout the Act. Some of the water pipes can also be entered into by Spin Dashing into the barricades that connect the pipes together, then entering the flushing water. Following lower routes will take the player into the lake water, which generally has no means of replenishing air but are otherwise not very long. While Sonic and Tails run around the surface and sky, Knuckles would instead explore the sewers beneath the lake, which will eventually flood after destroying one of the pipe barricades. At the end of Act 2, Sonic and Tails will make it to the Death Egg and fight a series of boss machines.",
+             actDescription: "Act 2 takes the player into the giant lake seen in Act 1's background, and is composed of a complex network of water pipes that the player will run along at high speeds throughout the Act. Some of the water pipes can also be entered into by Spin Dashing into the barricades that connect the pipes together, then entering the flushing water. Following lower routes will take the player into the lake water, which generally has no means of replenishing air but are otherwise not very long. While Sonic and Tails run around the surface and sky, Knuckles would instead explore the sewers beneath the lake, which will eventually flood after destroying one of the pipe barricades.",
              imageCover: "launchcover2"),
         
         Acts(name: "Mushroom Hill act 1",
              image: "mush1",
-             actDescription: "act1",
+             actDescription: "Set within a sprawling forest under a thick canopy, Mushroom Hill Zone is known for the many mushroom types that the player find. There are some that they can bounce off of, a seesaw-type mushroom that can be used to jump to a higher elevation, ones that act as falling platforms, and parachute-type mushrooms the player holds onto to float into the air. There are also vines that extend into bridges when crossed, and some that stick the player to the ground until they Spin Dash their way out of it.",
              imageCover: "mushcover1"),
         
         Acts(name: "Mushroom Hill act 2",
              image: "mush2",
-             actDescription: "act2",
+             actDescription: "Another unique feature about this Zone is that in the second Act, Dr. Eggman is using a satellite to change the climate, causing Act 2 to be played in different seasons. Thus, the palette changes from a summer green scenery to a autumn brown to a winter gray. This changes back to summer again when the player's character gets to the boss and destroys Eggman's satellite. This can be related to the scrapped Sand Shower Zone, which would have changed from a desert orange to a winter blue halfway through.",
              imageCover: "mushcover2"),
         
         Acts(name: "Flying Battery act 1",
              image: "fly1",
-             actDescription: "act1",
+             actDescription: "The deck of the ship features propeller poles that the player can swing from, providing they do not touch the blades themselves, and missiles that are fired from hatches in the walls or floors. In some locations, the player may have to wait for the missiles fired from the floor to break a hole in the floor in order to continue. The ship's underside often sees the player jump across propeller platforms and climb monkey bars to avoid falling into the giant bottomless pits beneath the ship.",
              imageCover: "flycover1"),
         
         Acts(name: "Flying Battery act 2",
              image: "fly2",
-             actDescription: "act2",
+             actDescription: "Act 2 is mostly identical to Act 1, but with the addition of spiral elevators, swinging black orbs to run along on, and Grabber-like mechs that carry the player through vertical mesh cylinders. Act 2 also has its own sub-boss, which leads into a sequence where the floor is rising and the player must escape to the top of the ship to avoid being crushed. After defeating the Hang Mobile, all characters spin through a hatch to leave the airship for Sandopolis Zone.",
              imageCover: "flycover2"),
         
         Acts(name: "Sandopolis act 1",
              image: "sand1",
-             actDescription: "act1",
+             actDescription: "Sandopolis Zone is a fairly long level, taking on a more platform-based, puzzle-oriented style than most levels before it. The Zone is entered by all characters falling from the sky into the sand at the beginning, requiring the player to press a button to jump out of the sand. Puzzle navigation is crucial in Act 1, as the player has to move stone blocks out of their path and onto small wheels to ride on, jumping up and riding along sandfalls, and grabbing on to hanging rope handles to abseil down long ravines to progress.",
              imageCover: "sandcover1"),
         
         Acts(name: "Sandopolis act 2",
              image: "sand2",
-             actDescription: "act2",
+             actDescription: "At the end of Act 1, a giant pyramid rises from the sand, releasing the Guardian. Once it is defeated, the player enters the pyramid where Act 2 takes place inside. The torches in the background of Act 2 are not just for decoration; they serve as actual illumination for the level and will progressively get dimmer until a light switch is pulled. The light has 4 stages: bright, semi-bright, dim and dark. The pyramid is also filled with timed doors operated by heavy black switches that have to be pushed or Spin Dashed into, and a section with rising sand halfway through.",
              imageCover: "sandcover2"),
         
         Acts(name: "Lava Reef act 1",
              image: "lava1",
-             actDescription: "act1",
+             actDescription: "The longest level in any Mega Drive Sonic game, Lava Reef Zone is an underground labyrinth of rocks, crystals, magma and general chaos. Lava and fire traps are everywhere throughout the Zone, making it very important that the player obtains a Fire Shield to keep themself safe. Across both Acts, the player will have to locate buttons to open doorways and Spin Dash through breakable walls to proceed. The first Act is a mine-type level held up by wooden beams and purple pipes that pump the island's magma through. Stalactites will fall from the ceiling when the player passes under them, and rocks in the lava will sink when the player steps on them.",
              imageCover: "lavacover1"),
         
         Acts(name: "Lava Reef act 2",
              image: "lava2",
-             actDescription: "act1",
+             actDescription: "After defeating the Heat Arms, the lava will cool, allowing the player to proceed to Act 2, which is a crystal wonderland with flamethrowers, moving blocks, high-speed transport tubes, and smaller spike balls that swing around posts and platforms in unison or thrown into the air by small launchers on the floor. Long, rotating drums found throughout the Act are lined with spikes as well as handles for the player to grab hold of; by letting go when swinging upwards, the player will be catapulted upwards to high places. During Sonic and Tails' adventure, the Death Egg can be seen in the cavernous background, showing that they are getting closer to stopping it.",
              imageCover: "lavacover2"),
         
         Acts(name: "Hidden Palace Zone",
              image: "hidden",
-             actDescription: "act1",
+             actDescription: "The Zone begins at the end of Lava Reef Zone Act 2. After a few steps, the scenery changes into that of Hidden Palace. Depending on the character being used, one of two scenarios will unfold shortly within the stage. As Sonic and/or Tails, the player will traverse through a short speed section with Rings, Spikes and Springs before engaging in a confrontation with Knuckles. Before this fight, the player can see the Death Egg leaving the mouth of the volcano. After the fight, a cutscene occurs in which Dr. Eggman steals the Master Emerald using a giant claw-arm attached to his Egg Mobile. Knuckles attempts to save it, but Eggman shocks him into submission.",
              imageCover: "hiddencover"),
         
         Acts(name: "Sky Sanctuary Zone",
              image: "sky",
-             actDescription: "act1",
+             actDescription: "Sonic and Tails' level (technically Act 1) has a very complex design that goes upwards and contains several Eggrobos, big spinning platforms, crumbling bridges and pillars, Warp Points, and clouds on which the player can bounce off. Sonic and Tails enter from a Warp Point found deep in Hidden Palace Zone and observe the Death Egg taking off into the stratosphere and releasing many Eggrobos throughout the Zone before Knuckles activates a bridge. On their way up the Sanctuary, they have to face Mecha Sonic, who's riding Dr. Eggman's Egg Mobile and using the Doctor's old tricks to stop them.",
              imageCover: "skycover"),
         
         Acts(name: "Death Egg act 1",
              image: "death1",
-             actDescription: "act1",
+             actDescription: "Act 1 has the player explore the enormous hull of the Death Egg, where many contraptions are spread about to slow down the heroes as much as possible. These include dangerous electricity fields that will shock the player should they attempt to come into contact with them. At a certain point in Act 1, the player will enter a large room where the player is constantly being pulled to the right and bouncing off of Spring-shaped bumpers, along with a larger bumper blocking the way out.",
              imageCover: "deathcover1"),
         
         Acts(name: "Death Egg act 2",
              image: "death2",
-             actDescription: "act1",
+             actDescription: "After Red Eye's destruction, the player advances to Act 2, which is now set outside the Death Egg where space itself can be seen, along with a breathtaking view of Sonic's world. Many of the gimmicks seen in Act 1 are present here, along with the introduction of sections where the gravity is reversed, causing the player to walk about on the ceiling. The gravity is altered by passing through white gravity tubes, entering the vertical transport tubes or by pressing buttons.",
              imageCover: "deathcover2"),
         
         Acts(name: "Doomsday Zone",
              image: "doomsday",
-             actDescription: "act1",
+             actDescription: "The Doomsday Zone is set in asteroid-filled space above the planet. The player must fly through the asteroid belt and fight Eggman to recover the Master Emerald and foil his plans again. Because Super Sonic must play this stage, the player starts out with 50 Rings instead of 0, and loses Rings at the traditional Super rate of one per second. There are extra Rings along the course of the level, but if the player's Ring total drops to 0, Sonic will fall out of Super form and lose a life. When the player is down to 10 Rings, the music tempo will increase to raise tension and warn the player to collect Rings.",
              imageCover: "doomsdaycover")
     ]
     
