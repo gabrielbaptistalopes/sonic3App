@@ -40,7 +40,7 @@ extension ActsViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "actsCell") as? ActsTableViewCell
             let acts = service.acts[indexPath.row]
             cell?.actNameLabel.text = acts.name
-        cell?.actPoster.image = UIImage(named: acts.imageCover)
+            cell?.actPoster.image = UIImage(named: acts.imageCover)
             return cell ?? UITableViewCell()
         
         }

@@ -131,7 +131,7 @@ class ActsService {
              imageCover: "deathcover2"),
         
         Acts(name: "Doomsday Zone",
-             image: "hidden",
+             image: "doomsday",
              actDescription: "act1",
              imageCover: "doomsdaycover")
     ]
