@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Qm-aW-laI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26.086956521739133" y="1101.5625"/>
+            <point key="canvasLocation" x="32" y="1102"/>
         </scene>
         <!--Acts View Controller-->
         <scene sceneID="JpZ-L7-Mln">
@@ -188,7 +188,6 @@
                                         <connections>
                                             <outlet property="actNameLabel" destination="8Zk-uc-Icf" id="blZ-Ui-GUT"/>
                                             <outlet property="actPoster" destination="OiN-TP-thi" id="oa0-Tm-59k"/>
-                                            <segue destination="4yW-WP-Tmu" kind="show" identifier="goToActDetailSegue" id="Dem-QK-of7"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -206,11 +205,12 @@
                     <navigationItem key="navigationItem" id="2i2-ap-Rkl"/>
                     <connections>
                         <outlet property="actsTableView" destination="sRU-XA-DpM" id="GYN-2N-DCM"/>
+                        <segue destination="4yW-WP-Tmu" kind="show" identifier="goToActDetailSegue" id="Yv9-vI-OMm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpA-Bo-Pih" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26.086956521739133" y="361.60714285714283"/>
+            <point key="canvasLocation" x="32" y="362"/>
         </scene>
         <!--Items View Controller-->
         <scene sceneID="Pim-O0-0Tu">

@@ -134,7 +134,6 @@
 				6E9844EB2899DFC800AC542D /* EmeraldTableViewTableViewCell.swift */,
 				6EDF2AE728A18A6B009063C1 /* Model+Services */,
 				6EDF2AEC28A195AD009063C1 /* ActsTableViewCell.swift */,
-				6EDF2AEE28A19BFD009063C1 /* ActsDetailViewController.swift */,
 			);
 			path = sonicSega;
 			sourceTree = "<group>";
@@ -163,6 +162,7 @@
 				6ED56E012895A3E50040D2B1 /* ItemsViewController.swift */,
 				6ED56DFF2895A3C60040D2B1 /* ActsViewController.swift */,
 				6ED56DD0289497AC0040D2B1 /* MainViewController.swift */,
+				6EDF2AEE28A19BFD009063C1 /* ActsDetailViewController.swift */,
 				6E9844EF289B15C700AC542D /* EmeraldDetailViewController.swift */,
 			);
 			path = Views;
