@@ -181,7 +181,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Act name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zk-uc-Icf">
-                                                    <rect key="frame" x="125" y="41" width="249" height="29"/>
+                                                    <rect key="frame" x="125" y="41" width="249" height="38"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -193,7 +193,7 @@
                                                 <constraint firstItem="8Zk-uc-Icf" firstAttribute="top" secondItem="CcS-H7-3Kr" secondAttribute="topMargin" constant="30" id="3Li-mr-TeK"/>
                                                 <constraint firstItem="OiN-TP-thi" firstAttribute="leading" secondItem="CcS-H7-3Kr" secondAttribute="leadingMargin" id="RvW-MG-qKK"/>
                                                 <constraint firstItem="8Zk-uc-Icf" firstAttribute="leading" secondItem="OiN-TP-thi" secondAttribute="trailing" constant="15" id="TTh-LV-yIB"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="8Zk-uc-Icf" secondAttribute="bottom" constant="30" id="XbV-sb-eDG"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="8Zk-uc-Icf" secondAttribute="bottom" constant="21" id="XbV-sb-eDG"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="8Zk-uc-Icf" secondAttribute="trailing" constant="20" id="eGw-da-puV"/>
                                             </constraints>
                                         </tableViewCellContentView>
