@@ -24,6 +24,8 @@
 		6ED56E022895A3E50040D2B1 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED56E012895A3E50040D2B1 /* ItemsViewController.swift */; };
 		6ED56E042895A40E0040D2B1 /* EmeraldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED56E032895A40E0040D2B1 /* EmeraldsViewController.swift */; };
 		6ED7225628AAE0FB008F1E5E /* ItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7225528AAE0FB008F1E5E /* ItemsCollectionViewCell.swift */; };
+		6ED7225828AAE1FE008F1E5E /* Items+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7225728AAE1FE008F1E5E /* Items+Model.swift */; };
+		6ED7225A28AAE26E008F1E5E /* Items+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7225928AAE26E008F1E5E /* Items+Service.swift */; };
 		6EDF2AE628A0616D009063C1 /* Emerald+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AE528A0616D009063C1 /* Emerald+Service.swift */; };
 		6EDF2AE928A18AE9009063C1 /* ActsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AE828A18AE9009063C1 /* ActsModel.swift */; };
 		6EDF2AEB28A18B80009063C1 /* Acts+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF2AEA28A18B80009063C1 /* Acts+Service.swift */; };
@@ -70,6 +72,8 @@
 		6ED56E012895A3E50040D2B1 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		6ED56E032895A40E0040D2B1 /* EmeraldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldsViewController.swift; sourceTree = "<group>"; };
 		6ED7225528AAE0FB008F1E5E /* ItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6ED7225728AAE1FE008F1E5E /* Items+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items+Model.swift"; sourceTree = "<group>"; };
+		6ED7225928AAE26E008F1E5E /* Items+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items+Service.swift"; sourceTree = "<group>"; };
 		6EDF2AE528A0616D009063C1 /* Emerald+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emerald+Service.swift"; sourceTree = "<group>"; };
 		6EDF2AE828A18AE9009063C1 /* ActsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActsModel.swift; sourceTree = "<group>"; };
 		6EDF2AEA28A18B80009063C1 /* Acts+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Acts+Service.swift"; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 				6EDF2AE528A0616D009063C1 /* Emerald+Service.swift */,
 				6EDF2AE828A18AE9009063C1 /* ActsModel.swift */,
 				6EDF2AEA28A18B80009063C1 /* Acts+Service.swift */,
+				6ED7225728AAE1FE008F1E5E /* Items+Model.swift */,
+				6ED7225928AAE26E008F1E5E /* Items+Service.swift */,
 			);
 			path = "Model+Services";
 			sourceTree = "<group>";
@@ -325,7 +331,9 @@
 				6E9844EC2899DFC800AC542D /* EmeraldTableViewTableViewCell.swift in Sources */,
 				6EDF2AE628A0616D009063C1 /* Emerald+Service.swift in Sources */,
 				6EDF2AE928A18AE9009063C1 /* ActsModel.swift in Sources */,
+				6ED7225A28AAE26E008F1E5E /* Items+Service.swift in Sources */,
 				6EDF2AEB28A18B80009063C1 /* Acts+Service.swift in Sources */,
+				6ED7225828AAE1FE008F1E5E /* Items+Model.swift in Sources */,
 				6EDF2AEF28A19BFD009063C1 /* ActsDetailViewController.swift in Sources */,
 				6EDF2AED28A195AD009063C1 /* ActsTableViewCell.swift in Sources */,
 				6ED56DCF289497AC0040D2B1 /* SceneDelegate.swift in Sources */,
