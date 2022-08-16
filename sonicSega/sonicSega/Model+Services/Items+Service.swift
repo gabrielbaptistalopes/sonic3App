@@ -12,25 +12,25 @@ class ItemsService {
     
     let items: [Items] = [
         
-    Items(ItemPowerUp: "Ring",
+    Items(ItemPowerUp: "Ten Ring Box",
           ItemImage: "big ring"),
     
-    Items(ItemPowerUp: "Fire",
+    Items(ItemPowerUp: "Fire Shield",
           ItemImage: "fire"),
     
-    Items(ItemPowerUp: "Life",
+    Items(ItemPowerUp: "Life 1-UP",
           ItemImage: "life"),
     
-    Items(ItemPowerUp: "Light",
+    Items(ItemPowerUp: "Lightning Shield",
           ItemImage: "light"),
     
-    Items(ItemPowerUp: "Speed",
+    Items(ItemPowerUp: "Speed-up",
           ItemImage: "speed"),
     
-    Items(ItemPowerUp: "Star",
+    Items(ItemPowerUp: "Invencibility",
           ItemImage: "star"),
     
-    Items(ItemPowerUp: "Water",
+    Items(ItemPowerUp: "Bubble Shield",
           ItemImage: "water"),
     ]
 }
