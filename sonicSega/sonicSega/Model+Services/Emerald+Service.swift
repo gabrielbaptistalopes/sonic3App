@@ -45,37 +45,37 @@ class EmeraldService {
                 specialStageMap: "specialStageMap7",
                 specialStageDescription: "Blue Spheres: 60 // Number of rings: 74"),
         
-        Emerald(emeraldImage: "Emerald8",
+        Emerald(emeraldImage: "SuperEmerald1",
                 specialStage: "Special Stage 8",
                 specialStageMap: "specialStageMap8",
                 specialStageDescription: "Blue Spheres: 67 // Number of rings: 61"),
         
-        Emerald(emeraldImage: "Emerald9",
+        Emerald(emeraldImage: "SuperEmerald2",
                 specialStage: "Special Stage 9",
                 specialStageMap: "specialStageMap9",
                 specialStageDescription: "Blue Spheres: 37 // Number of rings: 54"),
         
-        Emerald(emeraldImage: "Emerald10",
+        Emerald(emeraldImage: "SuperEmerald3",
                 specialStage: "Special Stage 10",
                 specialStageMap: "specialStageMap10",
                 specialStageDescription: "Blue Spheres: 72 // Number of rings: 64"),
         
-        Emerald(emeraldImage: "Emerald11",
+        Emerald(emeraldImage: "SuperEmerald4",
                 specialStage: "Special Stage 11",
                 specialStageMap: "specialStageMap11",
                 specialStageDescription: "Blue Spheres: 155 // Number of rings: 64"),
         
-        Emerald(emeraldImage: "Emerald12",
+        Emerald(emeraldImage: "SuperEmerald5",
                 specialStage: "Special Stage 12",
                 specialStageMap: "specialStageMap12",
                 specialStageDescription: "Blue Spheres: 54 // Number of rings: 68"),
         
-        Emerald(emeraldImage: "Emerald13",
+        Emerald(emeraldImage: "SuperEmerald6",
                 specialStage: "Special Stage 13",
                 specialStageMap: "specialStageMap13",
                 specialStageDescription: "Blue Spheres: 64 // Number of rings: 144"),
         
-        Emerald(emeraldImage: "Emerald14",
+        Emerald(emeraldImage: "SuperEmerald7",
                 specialStage: "Special Stage 14",
                 specialStageMap: "specialStageMap14",
                 specialStageDescription: "Blue Spheres: 71 // Number of rings: 57")
