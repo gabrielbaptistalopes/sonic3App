@@ -32,6 +32,7 @@ class ActsViewController: UIViewController {
 }
 
 extension ActsViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return service.acts.count
     }
@@ -42,7 +43,6 @@ extension ActsViewController: UITableViewDataSource {
             cell?.actNameLabel.text = acts.name
             cell?.actPoster.image = UIImage(named: acts.imageCover)
             return cell ?? UITableViewCell()
-        
         }
     }
     
@@ -52,9 +52,7 @@ extension ActsViewController: UITableViewDelegate {
         actSelected = service.acts[indexPath.row]
         performSegue(withIdentifier: "goToActDetailSegue", sender: self)
     }
-
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
-
 }
